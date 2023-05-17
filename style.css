@@ -22,16 +22,12 @@
   background-size: cover;
   padding: 25px 35px;
   text-align: center;
+  width: 100%; /* Set the width to 100% to take the full screen width */
 }
 
 @media (max-width: 768px) {
   .container {
     padding: 10px;
-  }
-
-  .music-player {
-    padding: 15px 25px;
-    width: 100%; /* Set the width to 100% on mobile */
   }
 }
 
