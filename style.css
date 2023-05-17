@@ -13,6 +13,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 10px; /* Adjust padding as needed */
 }
 
 .music-player {
@@ -20,14 +21,13 @@
   border-radius: 10px;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100%; /* Set padding-top to create a square shape */
-  position: relative;
-  width: 100%; /* Set the width to 100% to take the full screen width */
+  padding-bottom: 100%; /* Maintain a square shape */
 }
 
-@media (max-width: 768px) {
-  .container {
-    padding: 10px;
+@media (min-width: 768px) {
+  .music-player {
+    max-width: 400px; /* Adjust max-width as needed for desktop screens */
+    margin: 0 auto; /* Center the div horizontally */
   }
 }
 nav{
