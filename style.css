@@ -21,14 +21,14 @@
   border-radius: 10px;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 100%; /* Maintain a square shape */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 25px 35px;
+  text-align: center;
+  width: 100vw; /* Set the width to 100vw to take the full screen width */
 }
 
 @media (min-width: 768px) {
   .music-player {
+    width: auto; /* Reset width for desktop screens */
     max-width: 400px; /* Adjust max-width as needed for desktop screens */
     margin: 0 auto; /* Center the div horizontally */
   }
